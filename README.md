@@ -1,21 +1,15 @@
-# Unified Scouting Repository --- Brazilian Championship 2024
+# Unified Scouting Repository — Brazilian Championship 2024
 
 ## 🗺️ Overview
 
-This repository consolidates **all code, data, notebooks, dashboards,
-and supplementary results** from a project related to
-football scouting in the **2024 Brazilian Championship**.
+This repository consolidates **all code, data, notebooks, dashboards, and supplementary results** from a project related to football scouting in the **2024 Brazilian Championship**.
 
-It includes: - The full **interactive Streamlit scouting dashboard** for
-identifying high‑performance, low‑cost players ("good and cheap"); - The
-**original statistical analysis notebook**, datasets, and machine
-learning experiments; - The **supplementary results** used in the
-academic paper *"Artificial Intelligence in Football Scouting:
-Systematic Literature Review and Application with Unsupervised Machine
-Learning"*.
+It includes:
+- The full **interactive Streamlit scouting dashboard** for identifying high‑performance, low‑cost players ("good and cheap");
+- The **original statistical analysis notebook**, datasets, and machine learning experiments;
+- The **supplementary results** used in the academic paper *"Artificial Intelligence in Football Scouting: Systematic Literature Review and Application with Unsupervised Machine Learning"*.
 
-More details about the content, structure, and usage are found in the
-folders of this repository.
+More details about the content, structure, and usage are found in the folders of this repository.
 
 ------------------------------------------------------------------------
 
@@ -23,12 +17,11 @@ folders of this repository.
 
 The organization of this repository is:
 
-> -   **dashboard/** : Streamlit application for interactive scouting\
-> -   **notebooks/** : original exploratory, statistical analysis,
->     preprocessing, feature engineering, and modeling
->     (`.ipynb`)\
+> -   **dashboard/** : Streamlit application for interactive scouting
+> -   **notebooks/** : original exploratory, statistical analysis, preprocessing, feature engineering, and modeling
+>     (`.ipynb`)
 > -   **supplementary_results/** : supplementary tables, figures, and extended outputs
->     used in the paper\
+>     used in the paper
 
 ------------------------------------------------------------------------
 
@@ -36,29 +29,38 @@ The organization of this repository is:
 
 ### Summary of Included Components
 
--   **Player performance metrics** collected from FBref\
--   **Market value data** collected from Transfermarkt\
--   **Custom feature engineering** for each position (FW, MF, DF, GK)\
+-   **Player performance metrics** collected from FBref
+-   **Market value data** collected from Transfermarkt
+-   **Custom feature engineering** for each position (FW, MF, DF, GK)
 -   **Unsupervised learning methods**:
-    -   DBSCAN\
-    -   Isolation Forest\
-    -   Local Outlier Factor\
-    -   One‑Class SVM\
--   **Performance and cost‑benefit scoring system**\
+    -   DBSCAN
+    -   Isolation Forest
+    -   Local Outlier Factor
+    -   One‑Class SVM
+-   **Performance and cost‑benefit scoring system**
 -   **Identification of positive outliers** ("good and cheap" players)
 
-These resources enable analysts, researchers, and clubs to explore: -
-Statistical patterns\
-- Clustering behavior\
-- Market inefficiencies\
+These resources enable analysts, researchers, and clubs to explore:
+- Statistical patterns
+- Clustering behavior
+- Market inefficiencies
 - Player scouting recommendations
+
+------------------------------------------------------------------------
+
+## 🔗 Access to the Dashboard
+
+The interactive dashboard is available online at:
+
+👉 https://scouting-brazilian-championship-2024.onrender.com
+
+To access the app, login credentials (username and password) can be found directly in the source code inside the dashboard/ folder.
 
 ------------------------------------------------------------------------
 
 ## 📝 Citation
 
-If this repository contributes to your research or analysis, please cite
-the associated academic work:
+If this repository contributes to your research or analysis, please cite the associated academic work:
 
 ``` latex
 @dataset{ScoutingBrazil2024,
