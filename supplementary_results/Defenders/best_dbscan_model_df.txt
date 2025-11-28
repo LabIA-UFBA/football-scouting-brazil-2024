@@ -1,0 +1,13 @@
+hyperparameters:
+epsilon = 2.9
+min_samples = 5
+-----------------------------------------------------------------
+silhouette_score ≈ 0.5032
+noise_rate ≈ 0.2407
+-----------------------------------------------------------------
+cluster_score ≈ 0.6452
+-----------------------------------------------------------------
+PCA 3D in "Defenders (PCA).png"
+-----------------------------------------------------------------
+Cluster 1 - 79 defenders - cluster_cost_benefit ≈ 4.3019 - best cluster
+Cluster 2 - 44 defenders - cluster_cost_benefit ≈ 3.5108

@@ -1,0 +1,13 @@
+hyperparameters:
+epsilon = 2.4
+min_samples = 8
+--------------------------------------------------------------------------
+silhouette_score ≈ 0.5321
+noise_rate ≈ 0.6718
+--------------------------------------------------------------------------
+model_score ≈ 0.5347
+--------------------------------------------------------------------------
+PCA 3D in "Midfielders (PCA).png"
+--------------------------------------------------------------------------
+Cluster 1 - 56 midfielders - cluster_cost_benefit ≈ 4.6263 - best cluster
+Cluster 2 - 8 midfielders - cluster_cost_benefit ≈ 3.4879

@@ -1,0 +1,13 @@
+hyperparameters:
+epsilon = 2.8
+min_samples = 5
+-------------------------------------------------------------------
+silhouette_score ≈ 0.4828
+noise_rate ≈ 0.6296
+-------------------------------------------------------------------
+model_score = 0.4000
+-------------------------------------------------------------------
+PCA 3D in "Goalkeepers (PCA).png"
+-------------------------------------------------------------------
+Cluster 1 - 5 goalkeepers - cluster_cost_benefit ≈ 0.5822
+Cluster 2 - 5 goalkeepers - cluster_cost_benefit ≈ 1.5679 - best cluster
